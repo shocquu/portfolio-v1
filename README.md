@@ -5,7 +5,7 @@
   <a href="https://github.com/shocquu/portfolio-v1">
     <img src="https://user-images.githubusercontent.com/53997424/155155851-8cd485a1-5d89-46d9-9226-e1fc9fc5d234.svg" alt="Logo" width="80" height="80">
   </a>
-  <h1 align="center">Portfolio v2</h3>
+  <h1 align="center">Portfolio v1</h3>
   <p align="center">
     The first iteration of an unfinished portfolio for graphic freelance work.
   </p>

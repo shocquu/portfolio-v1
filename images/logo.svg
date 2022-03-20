@@ -1,6 +1,9 @@
-<svg id="logo" data-name="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 259.81">
-  <defs></defs>
-  <polygon class="stroke" points="255.6 259.81 150 76.97 66.67 221.31 201.95 221.31 224.17 259.81 0 259.81 150 0 300 259.81 255.6 259.81"/>
-  <polygon class="shape" points="179.91 185.23 174.87 176.51 172.58 172.54 168 172.54 155.82 172.53 161.9 161.96 164.18 157.99 161.89 154.03 156.88 145.34 150 133.43 143.12 145.34 120.09 185.23 113.22 197.14 126.97 197.14 173.03 197.14 186.78 197.14 179.91 185.23"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg enable-background="new 0 0 300 259.8" version="1.1" viewBox="0 0 300 259.8" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<style type="text/css">
+	.st0{fill:#0E0E0E;}
+	.st1{fill:#3AC7BB;}
+</style>
+<polygon class="st0" points="255.6 259.8 150 77 66.7 221.3 201.9 221.3 224.2 259.8 0 259.8 150 0 300 259.8"/>
+<polygon class="st1" points="179.9 185.2 174.9 176.5 172.6 172.5 168 172.5 155.8 172.5 161.9 162 164.2 158 161.9 154 156.9 145.3 150 133.4 143.1 145.3 120.1 185.2 113.2 197.1 127 197.1 173 197.1 186.8 197.1"/>
 </svg>
-<style>.stroke{fill:#0e0e0e;}.shape{fill:#3ac7bb;}</style>

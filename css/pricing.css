@@ -1,0 +1,41 @@
+.content {
+  background: #fff;
+  padding: 1em 6em;
+  color: #404040;
+  border-bottom: 3px solid #3ac7bb;
+  width: 60%;
+  margin-top: 0;
+  font-size: 1.6em;
+  display: grid;
+  font-weight: 400;
+  grid-template-columns: 8fr 1fr;
+}
+  .artwork-type {
+    display: flex;
+    align-items: center;
+    transition: .5s;
+    padding: 1em 0;
+  }
+    .artwork-type::after {
+      content: '';
+      position: relative;
+      display: block;
+      margin: 0 1em;
+      width: 0%;
+      height: 2px;
+      background: #3ac7bb;
+      transition: .5s;
+    }
+    .artwork-type:hover,
+    .artwork-type:hover+.price {
+      color: #3ac7bb;
+      cursor: pointer;
+    }
+    .artwork-type:hover::after {
+      width: 100%;
+    }
+  .price {
+    text-align: right;
+    padding: 1em 0;
+    transition: .5s;
+  }

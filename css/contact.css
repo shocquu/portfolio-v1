@@ -1,0 +1,84 @@
+.content {
+  display: flex;  
+  margin: 5em auto;
+}
+  .content-left {
+    flex: 2;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+  }
+    .content-left h1 {
+      width: 80%;
+      font-size: 3em;
+      text-align: center;
+      margin: 0;
+      color: #404040;
+    }
+      .content-left h1::after {
+        content: ' Contact me!';
+        color: #3ac7bb;
+      }
+    .content .wrapper {
+      justify-content: space-evenly;
+      background: #fff;
+      margin: 0;
+      border-radius: 6px;
+      border-bottom: 3px solid #3ac7bb;
+      transform: translateY(-80px);
+    }
+      .content .wrapper ul {
+        margin: 0;
+        width: 226px;
+        padding: 20px;
+        text-align: center;
+        color: #3ac7bb;
+        font-weight: 400;
+      }
+        .content .wrapper ul i {
+          font-size: 1.6em;
+          padding-bottom: 10px;
+        }
+      .content svg {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+      }
+        .bg-line {
+          fill: none;
+          stroke: #eae9e9;
+          stroke: url(#moving-line);
+          stroke-miterlimit: 10;
+          stroke-width: 0.3;
+          stroke-linecap: round;
+        }
+  .content-right {
+    flex: 1;
+  }
+    .contact-form {
+      display: grid;
+      width: 60%;
+      grid-gap: 0.5em;
+      margin-top: 10px;
+    }
+      form .form-top {
+        display: grid;
+        grid-gap: 0.5em;
+        grid-auto-flow: column;
+      }
+          .contact-form input::placeholder,
+          .contact-form textarea::placeholder {
+            color: #bdbdbd;
+          }
+          .contact-form input:focus,
+          .contact-form textarea:focus {
+            outline: none;
+            border-bottom-color: #3ac7bb;
+          }
+      .contact-form textarea {
+        min-height: 200px;
+        resize: vertical;
+      }
